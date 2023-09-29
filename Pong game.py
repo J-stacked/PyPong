@@ -4,9 +4,9 @@ import time
 
 mode=input("What mode would you like to do, easy(1), meduim(2), hard(3), expert(4), intense(5), super intense(6), or random(7)?")
 if mode=="7":
-    mode=["1","2","3","4","5","6"]
-    random.shuffle(mode)
-    mode=mode[0]
+    modes=["1","2","3","4","5","6"]
+    random.shuffle(modes)
+    mode=modes[0]
 if mode=="1":
     k=0.02
 elif mode=="2":
